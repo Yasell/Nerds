@@ -25,38 +25,38 @@
     margin-left: .2em;
 }
 .icon-basket:before{
-    content: '\62'; 
+    content: '\62';
 }
 .icon-facebook:before{
-    content: '\66'; 
-} 
+    content: '\66';
+}
 .icon-twitter:before{
     content: '\74';
 }
 .icon-vk:before{
     content: '\76';
-} 
-.icon-up-dir:before{ 
-    content: '\25b2'; 
-} 
-.icon-down-dir:before{ 
-    content: '\25bc'; 
 }
-.icon-circle:before{ 
-    content: '\25cb'; 
-} 
-.icon-circle-dot:before{ 
-    content: '\25cf'; 
+.icon-up-dir:before{
+    content: '\25b2';
 }
-.icon-check-off:before{ 
-    content: '\2610'; 
-} 
+.icon-down-dir:before{
+    content: '\25bc';
+}
+.icon-circle:before{
+    content: '\25cb';
+}
+.icon-circle-dot:before{
+    content: '\25cf';
+}
+.icon-check-off:before{
+    content: '\2610';
+}
 .icon-check-on:before{
     content: '\2611';
-} 
+}
 .icon-instagramm:before{
-    content: '📷'; 
-} 
+    content: '📷';
+}
 body{
     margin: 0;
     padding: 0;
@@ -66,7 +66,7 @@ body{
     line-height: 22px;
     color: #283136;
     font-weight: 500;
-} 
+}
 h1{
     font-size: 40px;
     line-height: 1.3em;
@@ -102,7 +102,7 @@ h3{
     padding: 0 5px;
 }
 
-/** оформление хэдера**/ 
+/** оформление хэдера**/
 .main-header{
     height: auto;
     background-color: #eeeeee;
@@ -130,13 +130,13 @@ h3{
 .main-menu li{
 	display: inline-block;
 	font-size: 14px;
-    line-height: 30px;
+  line-height: 30px;
 }
 .main-menu a{
 	position: relative;
 	display: inline-block;
 	padding: 60px 20px 5px;
-    font-family: "Roboto", "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
 	color: #000;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -144,7 +144,7 @@ h3{
 .main-menu active a{
     position: relative;
 }
-.main-menu .active a:after{ 
+.main-menu .active a:after{
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -152,7 +152,7 @@ h3{
 	right: 20px;
 	height: 2px;
 	background: #fb565a;
-}  
+}
 .main-menu .active a:hover{
     color: #000;
 }
@@ -170,8 +170,8 @@ h3{
 	margin-right: 2px;
 	color: #a6a6a6;
 }
-.main-menu a:hover, 
-.user-block a:hover, 
+.main-menu a:hover,
+.user-block a:hover,
 .user-block a:hover i{
 	color: #fb565a;
 }
@@ -187,7 +187,7 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
-    
+
 /**всё, что касается слайдера на главной index.html**/
 .slider{
     position: relative;
@@ -224,7 +224,7 @@ h3{
 }
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
 #btn-2:checked ~ .slider-controls label[for="btn-2"],
-#btn-3:checked ~ .slider-controls label[for="btn-3"]{ 
+#btn-3:checked ~ .slider-controls label[for="btn-3"]{
     background: #c1c1c1;
 }
 .slide{
@@ -269,13 +269,13 @@ h3{
 .slide{
     display: none;
 }
-#btn-1:checked ~ .slides .slide:nth-child(1){ 
+#btn-1:checked ~ .slides .slide:nth-child(1){
     display: block;
 }
-#btn-2:checked ~ .slides .slide:nth-child(2){ 
+#btn-2:checked ~ .slides .slide:nth-child(2){
     display: block;
 }
-#btn-3:checked ~ .slides .slide:nth-child(3){ 
+#btn-3:checked ~ .slides .slide:nth-child(3){
     display: block;
 }
 
@@ -307,13 +307,13 @@ h3{
     background: #00ca74;
 }
 #app:hover{
-    background: #01a25e; 
+    background: #01a25e;
 }
 #app:active{
     background: #009053;
 }
 #present{
-    background: #efc84a; 
+    background: #efc84a;
 }
 #present:hover{
     background: #d6ae2c;
@@ -369,7 +369,7 @@ h3{
 	margin-top: 60px;
 }
 .studio-right img{
-    margin-bottom: 67px;	
+    margin-bottom: 67px;
 }
 .studio{
 	min-height: 472px;
@@ -478,7 +478,7 @@ h3{
     margin-top: 75px;
 }
 .item-list{
-    font-size: 0px;    
+    font-size: 0px;
 }
 .item{
     display: inline-block;
@@ -516,7 +516,7 @@ h3{
     border-radius: 3px 3px 0 0;
 }
 .item:hover.item:before{
-    background: #797979; 
+    background: #797979;
 }
 .item:after{
     content: "";
@@ -562,7 +562,7 @@ h3{
 }
 .range-controls .bar{
     width: 144px;
-    margin-left: 8px; 
+    margin-left: 8px;
     height: 2px;
     background: #00ca74;
 }
@@ -746,7 +746,7 @@ h3{
 .horizontal-filter li,
 .horizontal-filter span{
     display: inline-block;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 12px;
     line-height: 18px;
     vertical-align: top;
@@ -777,16 +777,16 @@ h3{
 }
 .second-filter a:hover,
 .second-filter a.active:hover{
-    border: none;  
+    border: none;
     color: #b5b5b5;
 }
 .second-filter a:active,
 .second-filter a.active:active{
-    border: none;  
+    border: none;
     color: #000;
 }
 .second-filter a.active{
-    border: none;  
+    border: none;
     color: #00ca74;
 }
 
@@ -802,7 +802,7 @@ h3{
 .merch{
     float: right;
     max-width: 560px;
-} 
+}
 .headline{
     font-size: 36px;
 	line-height: 36px;
@@ -843,7 +843,7 @@ h3{
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;    
+    left: 0;
     margin: auto;
     display: none;
     width: 470px;
